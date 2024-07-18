@@ -1,4 +1,4 @@
-- name: Nama Pekerjaan
+- name: Testing Job SCM
   description: Deskripsi Pekerjaan
   project: Nama_Proyek
   loglevel: INFO
