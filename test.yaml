@@ -1,0 +1,10 @@
+- name: Testing Job SCM-2
+  description: Deskripsi Pekerjaan
+  project: Nama_Proyek
+  loglevel: INFO
+  sequence:
+    keepgoing: false
+    strategy: node-first
+    commands:
+      - script: |
+          echo "Hello, World!"
