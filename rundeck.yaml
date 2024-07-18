@@ -1,1 +1,20 @@
-echo "test git scm"
+- name: Nama Pekerjaan 1
+  description: Deskripsi Pekerjaan 1
+  project: Nama_Proyek
+  loglevel: INFO
+  sequence:
+    keepgoing: false
+    strategy: node-first
+    commands:
+      - script: |
+          echo "Hello, World!"
+- name: Nama Pekerjaan 2
+  description: Deskripsi Pekerjaan 2
+  project: Nama_Proyek
+  loglevel: INFO
+  sequence:
+    keepgoing: false
+    strategy: node-first
+    commands:
+      - script: |
+          echo "Hello again!"
